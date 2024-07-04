@@ -10,7 +10,7 @@ profilePhoto.addEventListener("click", () => {
 });
 
 
-fetch("https://m.search.naver.com/p/csearch/content/apirender.nhn?where=nexearch&pkid=387&u2=20000518&q=%EC%83%9D%EB%85%84%EC%9B%94%EC%9D%BC+%EC%9A%B4%EC%84%B8&u1=m&u3=solar&u4=12&_=1719518803829")
+fetch("https://m.search.naver.com/p/csearch/content/apirender.nhn?where=nexearch&pkid=387&u2=20001119&q=%EC%83%9D%EB%85%84%EC%9B%94%EC%9D%BC+%EC%9A%B4%EC%84%B8&u1=m&u3=solar&u4=12&_=1719518803829")
     .then(response => response.json()) // 응답을 JSON으로 파싱
     .then(data => {
         const htmlString = data.flick[0]; // 첫 번째 항목 선택
